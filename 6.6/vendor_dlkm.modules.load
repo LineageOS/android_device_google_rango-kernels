@@ -18,6 +18,7 @@ kernel/net/mac80211/mac80211.ko
 extra/private/google-modules/soc/gs/drivers/pinctrl/pinctrl-slg51002.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/debug/pixel-boot-metrics.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/vh/kernel/thermal/vh_thermal.ko
+extra/private/google-modules/soc/gs/drivers/soc/google/vh/kernel/power/vh_power.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/pt/slc_pt.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/pt/slc_dummy.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/gnssif_spi/gnss_spi.ko
@@ -26,6 +27,7 @@ extra/private/google-modules/soc/gs/drivers/soc/google/hardlockup-watchdog.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/perf_trace_counters.ko
 extra/private/google-modules/soc/gs/drivers/regulator/slg51002-regulator.ko
 extra/private/google-modules/soc/gs/drivers/regulator/tps628600-regulator.ko
+extra/private/google-modules/soc/gs/drivers/iommu/iommu_map_benchmark.ko
 extra/private/google-modules/soc/gs/drivers/mfd/slg51002-core.ko
 extra/private/google-modules/soc/gs/drivers/spmi/spmi_bit_bang.ko
 extra/private/google-modules/soc/gs/drivers/usb/gadget/function/usb_f_dm1.ko
@@ -51,6 +53,7 @@ extra/private/google-modules/soc/rdo/soc/google/gslc/gslc.ko
 extra/private/google-modules/soc/rdo/trace/generic_source.ko
 extra/private/google-modules/aoc/aoc_unit_test_dev.ko
 extra/private/google-modules/aoc/mailbox-wc.ko
+extra/private/google-modules/bms/ggauge_health_monitor.ko
 extra/private/google-modules/bms/google_ccd.ko
 extra/private/google-modules/bms/google_dock.ko
 extra/private/google-modules/bms/hl7132.ko
@@ -73,10 +76,10 @@ extra/private/google-modules/display/common/panels/panel-gs-s6e3hc4.ko
 extra/private/google-modules/display/vsi-g2d/drm_g2d.ko
 extra/private/google-modules/edgetpu/buenos/drivers/edgetpu/buenos.ko
 extra/private/google-modules/gxp/lga/gxp.ko
-extra/private/google-modules/iif/iif.ko
 extra/private/google-modules/lwis/lwis.ko
 extra/private/google-modules/misc/sscoredump/sscoredump_sample_test.ko
 extra/private/google-modules/misc/sscoredump/sscoredump_test.ko
+extra/private/google-modules/perf/memory/pixelmd/pixelmd.ko
 extra/private/google-modules/perf/thermal/google_devfreq_tj_cdev.ko
 extra/private/google-modules/perf/thermal/google_powercap.ko
 extra/private/google-modules/perf/thermal/google_thermal_cpm_mbox.ko
@@ -85,6 +88,8 @@ extra/private/google-modules/perf/thermal/google_thermal_sensor.ko
 extra/private/google-modules/perf/thermal/google_thermal_sensor_stats.ko
 extra/private/google-modules/perf/thermal/google_thermal_uclamp.ko
 extra/private/google-modules/powervr/pvrsrvkm/pvrsrvkm.ko
+extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_gs_cpu.ko
+extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_gs_eh.ko
 extra/private/google-modules/soc/gs/drivers/misc/s5910/s5910.ko
 extra/private/google-modules/soc/rdo/cap-sysfs/google_cap_sysfs.ko
 extra/private/google-modules/soc/rdo/cpu-lpm-stats/google_cpu_lpm_stats.ko
@@ -111,3 +116,4 @@ extra/private/google-modules/touch/synaptics/syna_gtd/syna_touch.ko
 extra/private/google-modules/uwb/slsi/u100/u100.ko
 extra/private/google-modules/wlan/bcmdhd/bcm4383/bcmdhd4383.ko
 extra/private/google-modules/wlan/bcmdhd/bcm4390/bcmdhd4390.ko
+extra/private/google-modules/wlan/wonder/wonder.ko

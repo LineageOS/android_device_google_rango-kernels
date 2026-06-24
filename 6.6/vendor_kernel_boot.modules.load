@@ -62,6 +62,7 @@ extra/private/google-modules/soc/rdo/drivers/devfreq/google_ccf_devfreq.ko
 extra/private/google-modules/soc/rdo/drivers/i2c/busses/i2c-designware-core.ko
 extra/private/google-modules/soc/rdo/drivers/i2c/busses/i2c-designware-platform.ko
 extra/private/google-modules/soc/rdo/drivers/i3c/master/dw-i3c-master.ko
+extra/private/google-modules/soc/rdo/drivers/input/power_keydebug.ko
 extra/private/google-modules/soc/rdo/drivers/irqchip/irq-google-cpm.ko
 extra/private/google-modules/soc/rdo/drivers/irqchip/irq-gia-lib.ko
 extra/private/google-modules/soc/rdo/drivers/irqchip/irq-gia-google.ko
@@ -142,10 +143,11 @@ extra/private/google-modules/bms/misc/logbuffer.ko
 extra/private/google-modules/display/common/gs_drm/gs-drm-connector.ko
 extra/private/google-modules/display/common/gs_panel/gs-panel.ko
 extra/private/google-modules/display/common/panels/panel-gs-simple.ko
+extra/private/google-modules/display/interfaces/synopsys/dwc_dptx/dwc_dptx.ko
 extra/private/google-modules/display/vsi-drm/bridge/synopsys/dsi2host/mipi-dsi2h.ko
-extra/private/google-modules/display/vsi-drm/dwc_dptx/dwc_dptx.ko
 extra/private/google-modules/display/vsi-drm/phy/synopsys/mipi-cdphy.ko
 extra/private/google-modules/display/vsi-drm/verisilicon/vs_drm.ko
+extra/private/google-modules/iif/iif.ko
 extra/private/google-modules/iommu/arm-smmu-v3/drivers/iommu/arm/arm-smmu-v3/arm_smmu_v3.ko
 extra/private/google-modules/iommu/arm-smmu-v3/drivers/iommu/arm/arm-smmu-v3/arm_smmu_v3_kvm.ko
 extra/private/google-modules/iommu/arm-smmu-v3/drivers/iommu/io-pgtable-pixel.ko
@@ -163,8 +165,6 @@ extra/private/google-modules/perf/infra/mbfs/mbfs_cpm_backend.ko
 extra/private/google-modules/power/mitigation/google_bcl.ko
 extra/private/google-modules/power/reset/pixel-reboot.ko
 extra/private/google-modules/radio/common/metrics_collection/metrics_collection.ko
-extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_cpu.ko
-extra/private/google-modules/soc/gs/drivers/block/zram/zcomp_eh.ko
 extra/private/google-modules/soc/gs/drivers/block/zram/zram_gs.ko
 extra/private/google-modules/soc/gs/drivers/misc/sscoredump/sscoredump.ko
 extra/private/google-modules/soc/gs/drivers/soc/google/eh/eh.ko
